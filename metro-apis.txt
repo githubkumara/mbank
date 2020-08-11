@@ -1,0 +1,15 @@
+testApp
+key :  weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC
+secret :  BPl3tWg6PIcWL0U3
+
+
+Test Portal
+https://gkumararaja-14846-eval-testportal.apigee.io/
+
+
+MBank App
+key  :  qgZcZoINIBfqRQTrfUAscQ8KSGQ2G9GP
+secret :  PUw8HfJVa0vvgvLB
+
+MBank Portal
+https://gkumararaja-14846-eval-mbankportal.apigee.io/
