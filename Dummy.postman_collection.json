@@ -1,0 +1,191 @@
+{
+	"info": {
+		"_postman_id": "c36d180c-97eb-4caf-889e-58d2669878a8",
+		"name": "Dummy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "testaccounts/accounts?apikey= weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://gkumararaja-14846-eval-prod.apigee.net/testaccounts/accounts?apikey= weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC",
+					"protocol": "https",
+					"host": [
+						"gkumararaja-14846-eval-prod",
+						"apigee",
+						"net"
+					],
+					"path": [
+						"testaccounts",
+						"accounts"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": " weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testaccounts/balances?apikey= weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://gkumararaja-14846-eval-prod.apigee.net/testaccounts/balances?apikey= weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC",
+					"protocol": "https",
+					"host": [
+						"gkumararaja-14846-eval-prod",
+						"apigee",
+						"net"
+					],
+					"path": [
+						"testaccounts",
+						"balances"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": " weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testaccounts/transactions?apikey= weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://gkumararaja-14846-eval-prod.apigee.net/testaccounts/transactions?apikey= weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC",
+					"protocol": "https",
+					"host": [
+						"gkumararaja-14846-eval-prod",
+						"apigee",
+						"net"
+					],
+					"path": [
+						"testaccounts",
+						"transactions"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": " weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "oauth/authorize?client_id=weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC&response_type=code",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "queryParams",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://gkumararaja-14846-eval-prod.apigee.net/testaccounts/oauth/authorize?client_id=weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC&response_type=code&scope=accounts&state=aslgjslg&apikey= weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC",
+					"protocol": "https",
+					"host": [
+						"gkumararaja-14846-eval-prod",
+						"apigee",
+						"net"
+					],
+					"path": [
+						"testaccounts",
+						"oauth",
+						"authorize"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC"
+						},
+						{
+							"key": "response_type",
+							"value": "code"
+						},
+						{
+							"key": "scope",
+							"value": "accounts"
+						},
+						{
+							"key": "state",
+							"value": "aslgjslg"
+						},
+						{
+							"key": "apikey",
+							"value": " weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MaskConfig/testaccounts/transactions?apikey= weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<MaskDataConfiguration name=\"default\">\r\n    <JSONPathsResponse>\r\n        <JSONPathResponse>$.Data.Transaction[*].AccountId</JSONPathResponse>\r\n        <JSONPathResponse>$.Links.Self</JSONPathResponse>\r\n    </JSONPathsResponse>\r\n</MaskDataConfiguration>\r\n"
+				},
+				"url": {
+					"raw": "https://gkumararaja-14846-eval-prod.apigee.net/testaccounts/transactions?apikey= weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC",
+					"protocol": "https",
+					"host": [
+						"gkumararaja-14846-eval-prod",
+						"apigee",
+						"net"
+					],
+					"path": [
+						"testaccounts",
+						"transactions"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": " weyGdLDA2bSpTGJTpOdWCow3hFWyZoqC"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
