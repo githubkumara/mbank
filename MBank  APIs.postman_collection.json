@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "37edf355-7bd3-488c-ab20-762411654683",
+		"name": "MBank  APIs",
+		"description": "MBank APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "mbank-api/accounts/?apikey=qgZcZoINIBfqRQTrfUAscQ8KSGQ2G9GP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://gkumararaja-14846-eval-test.apigee.net/mbank-api/accounts/?apikey=qgZcZoINIBfqRQTrfUAscQ8KSGQ2G9GP",
+					"protocol": "https",
+					"host": [
+						"gkumararaja-14846-eval-test",
+						"apigee",
+						"net"
+					],
+					"path": [
+						"mbank-api",
+						"accounts",
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "qgZcZoINIBfqRQTrfUAscQ8KSGQ2G9GP"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mbank-api/balances/?apikey=qgZcZoINIBfqRQTrfUAscQ8KSGQ2G9GP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://gkumararaja-14846-eval-test.apigee.net/mbank-api/balances/?apikey=qgZcZoINIBfqRQTrfUAscQ8KSGQ2G9GP",
+					"protocol": "https",
+					"host": [
+						"gkumararaja-14846-eval-test",
+						"apigee",
+						"net"
+					],
+					"path": [
+						"mbank-api",
+						"balances",
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "qgZcZoINIBfqRQTrfUAscQ8KSGQ2G9GP"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mbank-api/transactions/?apikey=qgZcZoINIBfqRQTrfUAscQ8KSGQ2G9GP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://gkumararaja-14846-eval-test.apigee.net/mbank-api/transactions/?apikey=qgZcZoINIBfqRQTrfUAscQ8KSGQ2G9GP",
+					"protocol": "https",
+					"host": [
+						"gkumararaja-14846-eval-test",
+						"apigee",
+						"net"
+					],
+					"path": [
+						"mbank-api",
+						"transactions",
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "qgZcZoINIBfqRQTrfUAscQ8KSGQ2G9GP"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
